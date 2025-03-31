@@ -3,7 +3,7 @@ import { Button, Modal, ModalClose, ModalDialog } from '@mui/joy';
 import Input from '@mui/joy/Input';
 import { useState } from 'react';
 import { ColorPicker, useColor } from 'react-color-palette';
-import 'react-color-palette/css';
+import 'react-color-palette/dist/css/rcp.css';
 import styles from './Settings.module.css';
 
 const Settings = () => {
