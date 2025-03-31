@@ -1,0 +1,36 @@
+.button {
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+.settings {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-font) 25%, transparent);
+  background-color: var(--color-dark);
+}
+
+.chat-link {
+  flex: 1;
+  display: flex;
+  gap: 0.5rem;
+  min-width: 10rem;
+}
+
+.chat-link-input {
+  flex: 1;
+}
+
+.background-color-picker {
+  height: 2.25rem;
+  aspect-ratio: 1/1;
+  border-radius: 0.25rem;
+  border: 1px solid color-mix(in srgb, var(--color-font) 25%, transparent);
+  cursor: pointer;
+}
+
+.color-picker-ui {
+  margin-top: 2rem;
+}
